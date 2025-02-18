@@ -69,8 +69,7 @@ a:hover {
 }
 .klaseH{
     color: white;
-    /* font-weight: bold; */
-    font-size: 30PX;
+    font-size: 30px;
 }
 .divF {
     border-top: 2px solid white;
@@ -165,4 +164,73 @@ a:hover {
     width: 100px;
     padding-bottom: 30px;
     margin-left: 50px;
+}
+
+@media (min-width: 900px) {
+    .divDiamond{
+        width: 740px;
+        margin-left: 50px;
+        padding-top: 250px;
+    }
+    .divLuzis{
+        width: 362px;
+        height: 57px;
+    }
+    .iconDiamond{
+        margin-left: 325px;
+    }
+    .klaseH{
+        font-size: 40px;
+    }
+    .klaseP {
+        padding-left: 80px;
+        font-size: 14px;
+    }
+    .divF {
+        width: 380px;
+    }
+    .divF2 {
+        width: 380px;
+    }
+    .divFlex{
+        margin-left: 50px;
+    }
+    .klaseIntro2{
+        /* border: 2px solid white; */
+        width: 150px;
+        height: 20px;
+        /* margin-left: 10px; */
+        /* color: white; */
+        /* text-align: center; */
+        padding-bottom: 20px;
+        display: inline-block;
+        margin: 0;
+    }
+    
+     /* Pasirūpinti, kad INTRO mygtukas būtų viršuje */
+     .klaseIntro {
+        /* border: 2px solid white; */
+        width: 150px;
+        height: 20px;
+        padding-bottom: 20px;
+        /* margin-left: 10px; */
+        /* padding-top: 30px; */
+        /* color: white;
+        text-align: center;
+        cursor: pointer;
+        position: relative;
+        z-index: 10;  */
+        display: inline-block;
+        margin: 0;
+    }
+    .klaseFldesk{
+        
+        /* display: inline-block; */
+        margin-left: 120px;
+        /* justify-content: space-between;
+        gap: none; */
+        /* margin-left: 100px;
+        margin-right: 100px;
+        padding: 0px; */
+    }
 }
