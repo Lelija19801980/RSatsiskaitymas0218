@@ -6,3 +6,4 @@ function openNewContent() {
     intro.style.display = 'none'; 
     newContent.classList.add('show');  
 }
+
