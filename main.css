@@ -64,3 +64,8 @@ i.bi {
     text-decoration: none;
     border-bottom: 3px dotted white;
 }
+.klaseH{
+    color: white;
+    /* font-weight: bold; */
+    font-size: 30PX;
+}
