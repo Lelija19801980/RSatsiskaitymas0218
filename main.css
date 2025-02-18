@@ -209,28 +209,25 @@ a:hover {
     
      /* Pasirūpinti, kad INTRO mygtukas būtų viršuje */
      .klaseIntro {
-        /* border: 2px solid white; */
         width: 150px;
         height: 20px;
         padding-bottom: 20px;
-        /* margin-left: 10px; */
-        /* padding-top: 30px; */
-        /* color: white;
-        text-align: center;
-        cursor: pointer;
-        position: relative;
-        z-index: 10;  */
         display: inline-block;
         margin: 0;
     }
     .klaseFldesk{
-        
-        /* display: inline-block; */
         margin-left: 120px;
-        /* justify-content: space-between;
-        gap: none; */
-        /* margin-left: 100px;
-        margin-right: 100px;
-        padding: 0px; */
+    }
+    .introFonas{
+        width: 800px;
+    }
+    .newContent video {
+        width: 90%;
+        max-width: 900px;
+    }
+    .close-button {
+        /* margin-top: 100px; */
+        margin-left: 700px;
+        /* padding-top: 50px; */
     }
 }
