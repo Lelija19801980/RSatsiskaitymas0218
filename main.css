@@ -64,6 +64,9 @@ i.bi {
     text-decoration: none;
     border-bottom: 3px dotted white;
 }
+a:hover {
+    color: aqua;
+}
 .klaseH{
     color: white;
     /* font-weight: bold; */
