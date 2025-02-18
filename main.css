@@ -72,3 +72,56 @@ a:hover {
     /* font-weight: bold; */
     font-size: 30PX;
 }
+.divF {
+    border-top: 2px solid white;
+    border-right: 2px solid white;
+    height: 50px;
+    width: 270px;
+}
+.divF2 {
+    border-top: 2px solid white;
+    height: 50px;
+    width: 270px;
+}
+.divFlex{
+    display: flex;
+    margin-left: 10px;
+    padding-top: 30px;
+}
+.klaseIntro2{
+    border: 2px solid white;
+    width: 540px;
+    height: 50px;
+    margin-left: 10px;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+}
+
+ /* Pasirūpinti, kad INTRO mygtukas būtų viršuje */
+ .klaseIntro {
+    border: 2px solid white;
+    width: 540px;
+    height: 50px;
+    margin-left: 10px;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+    z-index: 10; /* Užtikrina, kad INTRO bus virš kitų elementų */
+}
+/* Paslėptas turinys, kurį atidarysime paspaudus */
+.newContent {
+    display: none;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    z-index: 5; 
+}
+.newContent.show {
+    display: block;
+}
+.newContent video {
+    width: 80%;
+    max-width: 400px;
+}
