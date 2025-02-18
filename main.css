@@ -130,7 +130,6 @@ a:hover {
     color: white;
     text-align: left;
     padding-left: 50px;
-    /* padding-top: 30px; */
     font-size: 30px;
 }
 .introFonas{
@@ -145,7 +144,9 @@ a:hover {
     right: 20px; */
     /* width: 50px;
     height: 50px;*/
-    background-color: black; 
+    /* margin-top: 20px;
+    margin-left: 400px; */
+    background-color: black;  
     color: white;
     font-size: 30px;
     text-align: right;
@@ -158,4 +159,8 @@ a:hover {
 .close-button:hover {
     transform: rotate(90deg);
 }
+/* .buttonX{
+    margin-top: 20px;
+    margin-left: 400px;
+} */
 
