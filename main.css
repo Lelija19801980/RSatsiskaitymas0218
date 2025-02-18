@@ -15,5 +15,31 @@
     right: 0;
     bottom: 0;
     background: rgba(0, 0, 0, 0.5);
-    z-index: 1; 
+    /* z-index: 1;  */
+}
+i.bi {
+    font-size: 50px;
+    color: white;  
+}
+.divDiamond{
+    container: flex;
+    width: 520px;
+    height: 270px;
+    border-bottom: 2px solid white;
+    padding-left: 20px;
+    margin-left: 10px;
+}
+.iconDiamond{
+    /* display: flex; */
+    border: 2px solid white;
+    border-radius: 50px;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    align-items: center;
+}
+.divLuzis{
+    width: 260px;
+    height: 50px;
+    border: 2px solid white;
 }
